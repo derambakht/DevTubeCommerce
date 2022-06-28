@@ -1,0 +1,5 @@
+vs code
+dotnet ef migrations add InitialCreate --context CommerceContext --startup-project DevTubeCommerce.API -o "Migrations/CommerceMigrations" --project DevTubeCommerce.Infrastructure.Database
+
+visual studio
+Add-Migration InitialCreate -Context CommerceContext -OutputDir Migrations\CommerceMigrations

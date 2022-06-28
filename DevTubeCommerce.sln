@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{77BE2485-1860-4614-9ED6-86A269B2408C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{061031CB-9BC4-42D6-ABE3-0F1AFFA3D51F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{66CED9A8-DBCC-4534-92C6-74A991F7CB01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5225391F-B32E-4B4D-92C5-615C0CF42041}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTubeCommerce.Domain.Core", "DevTubeCommerce.Domain.Core\DevTubeCommerce.Domain.Core.csproj", "{1D2289F5-64BF-4DAF-A29E-75F534043509}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{BCBBBD4C-B313-45D5-831F-A5D818651B7E}"
+	ProjectSection(SolutionItems) = preProject
+		ef-commands.txt = ef-commands.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTubeCommerce.Infrastructure", "DevTubeCommerce.Infrastructure\DevTubeCommerce.Infrastructure.csproj", "{DEDC1BC1-4473-4202-8A87-264DF9B6E337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTubeCommerce.Infrastructure.Database", "DevTubeCommerce.Infrastructure.Database\DevTubeCommerce.Infrastructure.Database.csproj", "{A4D2EBAF-2206-4DB9-8239-94292E1C76F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTubeCommerce.Application", "DevTubeCommerce.Application\DevTubeCommerce.Application.csproj", "{4F41BC43-1626-4DE9-B10C-F3566675121A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevTubeCommerce.API", "DevTubeCommerce.API\DevTubeCommerce.API.csproj", "{3D6E7223-1DFF-4E99-83B1-09B6D1399865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTubeCommerce.Application.Contract", "DevTubeCommerce.Application.Contract\DevTubeCommerce.Application.Contract.csproj", "{D0E58985-2BB6-47C6-A55A-C4400089889A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D2289F5-64BF-4DAF-A29E-75F534043509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2289F5-64BF-4DAF-A29E-75F534043509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2289F5-64BF-4DAF-A29E-75F534043509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2289F5-64BF-4DAF-A29E-75F534043509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDC1BC1-4473-4202-8A87-264DF9B6E337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDC1BC1-4473-4202-8A87-264DF9B6E337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDC1BC1-4473-4202-8A87-264DF9B6E337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDC1BC1-4473-4202-8A87-264DF9B6E337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D2EBAF-2206-4DB9-8239-94292E1C76F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D2EBAF-2206-4DB9-8239-94292E1C76F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D2EBAF-2206-4DB9-8239-94292E1C76F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D2EBAF-2206-4DB9-8239-94292E1C76F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F41BC43-1626-4DE9-B10C-F3566675121A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F41BC43-1626-4DE9-B10C-F3566675121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F41BC43-1626-4DE9-B10C-F3566675121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F41BC43-1626-4DE9-B10C-F3566675121A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6E7223-1DFF-4E99-83B1-09B6D1399865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6E7223-1DFF-4E99-83B1-09B6D1399865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6E7223-1DFF-4E99-83B1-09B6D1399865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6E7223-1DFF-4E99-83B1-09B6D1399865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E58985-2BB6-47C6-A55A-C4400089889A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E58985-2BB6-47C6-A55A-C4400089889A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E58985-2BB6-47C6-A55A-C4400089889A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E58985-2BB6-47C6-A55A-C4400089889A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D2289F5-64BF-4DAF-A29E-75F534043509} = {77BE2485-1860-4614-9ED6-86A269B2408C}
+		{DEDC1BC1-4473-4202-8A87-264DF9B6E337} = {061031CB-9BC4-42D6-ABE3-0F1AFFA3D51F}
+		{A4D2EBAF-2206-4DB9-8239-94292E1C76F0} = {061031CB-9BC4-42D6-ABE3-0F1AFFA3D51F}
+		{4F41BC43-1626-4DE9-B10C-F3566675121A} = {66CED9A8-DBCC-4534-92C6-74A991F7CB01}
+		{3D6E7223-1DFF-4E99-83B1-09B6D1399865} = {5225391F-B32E-4B4D-92C5-615C0CF42041}
+		{D0E58985-2BB6-47C6-A55A-C4400089889A} = {66CED9A8-DBCC-4534-92C6-74A991F7CB01}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF60EDDC-B7A3-4FB2-9D95-B352B937B4D9}
+	EndGlobalSection
+EndGlobal

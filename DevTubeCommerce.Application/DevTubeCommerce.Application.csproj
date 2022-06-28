@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevTubeCommerce.Application.Contract\DevTubeCommerce.Application.Contract.csproj" />
+    <ProjectReference Include="..\DevTubeCommerce.Domain.Core\DevTubeCommerce.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
