@@ -1,4 +1,6 @@
 using DevTubeCommerce.API.Configurations;
+using DevTubeCommerce.Application;
+using DevTubeCommerce.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDatabaseSetup(builder.Configuration);
+builder.Services.AddInfrastructureRepositories();
+builder.Services.AddApplicationServices();
 
 var app = builder.Build();
 

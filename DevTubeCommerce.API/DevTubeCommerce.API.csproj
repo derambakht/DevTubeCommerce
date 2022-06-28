@@ -17,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DevTubeCommerce.Application\DevTubeCommerce.Application.csproj" />
     <ProjectReference Include="..\DevTubeCommerce.Infrastructure.Database\DevTubeCommerce.Infrastructure.Database.csproj" />
+    <ProjectReference Include="..\DevTubeCommerce.Infrastructure\DevTubeCommerce.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

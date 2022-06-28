@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DevTubeCommerce.Domain.Core\DevTubeCommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\DevTubeCommerce.Infrastructure.Database\DevTubeCommerce.Infrastructure.Database.csproj" />
+  </ItemGroup>
+
 </Project>
