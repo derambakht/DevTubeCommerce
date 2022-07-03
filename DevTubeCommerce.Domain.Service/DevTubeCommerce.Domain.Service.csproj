@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Orders\Events\" />
-    <Folder Include="Suppliers\" />
-    <Folder Include="Payments\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MediatR" Version="10.0.1" />
+    <ProjectReference Include="..\DevTubeCommerce.Domain.Core\DevTubeCommerce.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

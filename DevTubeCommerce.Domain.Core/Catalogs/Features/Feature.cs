@@ -44,6 +44,7 @@ namespace DevTubeCommerce.Domain.Core.Catalogs.Features
             Title = title;
             Description = description;
             SortOrder = sortOrder;
+            //call event ???
         }
 
         private Feature(FeatureId featureId)

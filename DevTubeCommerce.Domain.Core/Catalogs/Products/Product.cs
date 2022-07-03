@@ -1,4 +1,5 @@
 ﻿using DevTubeCommerce.Domain.Core.Base;
+using DevTubeCommerce.Domain.Core.Catalogs.Products.Events;
 using DevTubeCommerce.Domain.Core.Shared;
 using System;
 using System.Collections.Generic;
@@ -39,6 +40,7 @@ namespace DevTubeCommerce.Domain.Core.Catalogs.Products
             Description = description;
             Price = price;
             BuildFeatures(productFeatures);
+            AddDomainEvent(new AddProductSendNotificationEvent(Id));
         }
 
         private Product(){}
